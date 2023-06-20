@@ -1,0 +1,104 @@
+.header{
+    background-color: #dedbd6;
+}
+.menu{
+    overflow: hidden;
+    width: 510px;
+    margin: 0 auto;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 20px 25px;
+    display: inline-block;
+    transition: .3s;
+}
+.menu ul li a:hover{
+    background-color:#2f124a;
+    color:#14f4f4;
+}
+
+.marginPadding{
+    width: 250px;
+    height: 250px;
+    background-color: aquamarine;
+    margin:30px;
+    overflow: hidden;
+}
+
+.marginPadding p{
+    border: 1px solid #000;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+}
+.child1{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+.child2{
+    background-color: #c4bdb2;
+    padding: 20px;
+}
+.child3{
+    background-color: #a8a199;
+    padding: 40px;
+}
+
+.parent{
+    width: 460px;
+    height: 250px;
+    background-color: green;
+    position: relative;
+}
+.child{
+    width:180px;
+    height: 180px;
+    background-color: red;
+    position: absolute;
+    left: 140px;
+    top: 35px;
+    border-radius: 50%;
+}
+
+.bg-image{
+    background: url(bg-image.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 140px;
+}
+.bg-image h1 {
+    font-size: 45px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    width: 1100px;
+    margin: 0 auto;
+    font-family: arial;
+    cursor: pointer;
+}
+.bg-image p {
+    font-size: 19px;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+
+}
+
+
+  
+
